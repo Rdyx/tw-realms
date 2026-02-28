@@ -212,8 +212,8 @@ Unless specified otherwise:
 - The app uses strict TypeScript.
 - ESLint is enabled.
 - The project follows standard Nuxt directory conventions.
-- Components are stored in `/components`.
-- Composables are stored in `/composables`.
+- Components are stored in `/app/components`.
+- Composables are stored in `/app/composables`.
 
 ---
 

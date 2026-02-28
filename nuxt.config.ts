@@ -9,6 +9,10 @@ export default defineNuxtConfig({
 
 	css: ["./app/assets/css/main.css"],
 	vite: {
-		plugins: [tailwindcss()],
+		plugins: [tailwindcss() as any],
+	},
+
+	content: {
+		documentDriven: true,
 	},
 });
